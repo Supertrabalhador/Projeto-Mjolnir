@@ -1,0 +1,107 @@
+body{
+    background-image: url(assets/Background/jpg.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+/* Personalização do estilo da Navbar */
+.custom-navbar {
+    background-color: #28a745; /* Cor de fundo verde */
+}
+
+/* Estilo da navbar-brand (o título da navbar) */
+.custom-navbar .navbar-brand {
+    color: white; /* Cor do texto */
+    font-family: "Bebas Neue", sans-serif; /* Tipo de fonte */
+    font-size: 30px; /* Tamanho da fonte */
+}
+
+/* Estilo dos links da navbar */
+.custom-navbar .nav-link {
+    color: white; /* Cor padrão do texto */
+    font-family: "Arial", sans-serif;
+    font-size: 18px;
+}
+
+/* Efeito ao passar o mouse (hover) nos links */
+.custom-navbar .nav-link:hover {
+    color: #ffdd57; /* Cor amarela clara no hover */
+    text-decoration: underline; /* Sublinha o link no hover */
+}
+
+/* Efeito ao passar o mouse (hover) no título da navbar */
+.custom-navbar .navbar-brand:hover {
+    color: #ffdd57; /* Muda a cor para amarelo claro ao passar o mouse */
+}
+
+/* Ajustes para o menu ativo */
+.custom-navbar .nav-item.active .nav-link {
+    font-weight: bold; /* Deixa o texto em negrito */
+    color: #ffc107; /* Cor amarela quando ativo */
+}
+
+/* Ajuste adicional caso queira mudar a cor de fundo da navbar em um hover */
+.custom-navbar:hover {
+    background-color: #218838; /* Cor de fundo verde escuro quando passar o mouse */
+}
+
+.ajustarfoto{
+    width: 800px;
+    height: 700px;
+    display: block;
+    margin: 0 auto ;
+    
+}
+
+.vodytext{
+    color:rgb(255, 0, 0);
+
+
+    
+}
+
+.custom-navbar .btn {
+    background-color: #28a745; /* Cor de fundo verde */
+    color: white; /* Cor do texto branco */
+}
+
+.custom-navbar .btn:hover {
+    background-color: #218838; /* Cor do fundo verde escuro quando o botão for clicado */
+}
+h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 40px;
+    text-align: center; 
+    color: white;
+     
+
+ 
+}
+
+
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.botao {
+    float: right; 
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: #45a049; 
+}
+
